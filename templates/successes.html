@@ -1,0 +1,39 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block breadcrumb %}
+  <li class="breadcrumb-item active" style="font-size:xx-large;">No Grant No Fee</li>
+{% endblock %}
+
+{% block content %}
+<table>
+  <tr style="padding: 30px;">
+    <td>
+      <p style="font-size:60px;text-align: center;padding: 1cm;">Successful Grants</p>
+    </td>
+    <td>
+      <p style="font-size:30px;text-align: center;padding: 1cm;">Celebrating the many people who have transformed their communities with the help of No Grant, No Fee.</p>
+    </td>
+  </tr>
+</table>
+<section style="width:100%;text-align: center;">
+  <section>
+    <p style="font-size:30px;text-align: left">The Tie Partnership</p>
+    <img src="{% static 'images/succ_tiepartner.webp' %}" style="width:60%">
+  </section>
+  <br>
+  <section>
+    <p style="font-size:30px;text-align: left;">The Raw Truth Initiative</p>
+    <img src="{% static 'images/succ_rawtruth.webp' %}" style="width:60%">
+  </section>
+  <br>
+  <section>
+    <p style="font-size:30px;text-align: left">Huddersfield Enterprise</p>
+    <img src="{% static 'images/succ_huddent.webp' %}" style="width:60%">
+  </section>
+  <br>
+</section>
+<br>
+<br>
+
+{% endblock %}
