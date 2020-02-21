@@ -28,7 +28,7 @@ SECRET_KEY = '(xzs*7#$5&k*7%6=6ihsdm+41dls9)+yewn0hdm39=gh^ho1e8'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = [ ]
+ALLOWED_HOSTS = ['ngnf-dev8.eu-west-2.elasticbeanstalk.com']
 
 
 # Application definition
